@@ -20,7 +20,8 @@
 ## Endpoints
 
 (lr1) 
-1. 
+
+  1. POST /api/v1/lab-1/process
 ```bash
   curl -w "\n" -X POST http://192.168.1.100:3000/api/v1/lab-1/process -H "Content-Type: application/json" -d '{"ip": "192.168.1.100"}'
 ```
